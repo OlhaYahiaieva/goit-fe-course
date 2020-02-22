@@ -9,14 +9,10 @@ html {
 
 body {
     font-family: Raleway;
+    margin: 0 auto;
 
 }
-  
-.block {
-    margin-right: 150px;
-    margin-left: 150px;
-    width: 900px;
-}   
+   
 
  
 img {
@@ -25,73 +21,98 @@ img {
     height: auto;
 }
 .container {
-    margin: 0px;
-    padding: 0px;
-    
-  
-    
+    width: 900px;
+    margin: 0 auto;
+    padding: 0px; 
 }
 .pag-nav {
     padding-top: 77px;
     padding-bottom: 100px;
 }
 
-.site-navigation {
+.site-navigation  {
     display: block;
-    widows: 900px;
     text-align: center;
-
+    margin: 0;
+    padding:0;
 }
+
 
 .site-navigation li { 
     display: inline-block;
-    margin-right: 100px;   
+    margin-right: 100px;  
+
+}
+.inline:last-child{
+    margin-right: 0;
+    }
+    
+
+    .site-navigation a {
+        text-transform: uppercase;
+        color: #626262;
+        font-size: 14px;
+        list-style: none;
+        text-decoration: none;
+    }
+    
+    .site-navigation a:hover {
+        color:#03a9f4;
+    }
+
+.section {
+    font-size: 0px;
+    padding: bottom;
 }
 
-
-
- li {
-     text-transform: uppercase;
-     color: #626262;
-     font-size: 14px;
-     list-style: none;
- }
- 
- li:hover {
-     color:#03a9f4;
- }
 
  .title {
      text-transform: uppercase;
      color: #b4ad9e;
      font-size: 14px;
+     margin: 35px 0px 35px 0px;
+     
 }
 
 h2 {
     color: #626262;
     font-size: 27px;
+    margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .text {
     color: #626262;
     font-size: 14px;
+    margin: 0 auto;
+
 }
-.button {
+
+button{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.button{
     font-size: 20px;
     color: #626262;
     width: 170px;
     height: 70px;
     border: none;
-    margin: 30px 370px 70px 370px;
+    padding: 0;
 }
 
 
 .inline-block {
     width: 420px;
     display: inline-block;
-    margin-right: 40px;
+    margin-right: 60px;
+    margin-bottom: 130px
    
 }
+
+
+
 .inline-block:nth-child(2n) {
     margin-right: 0px;
 }
